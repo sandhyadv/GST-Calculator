@@ -10,6 +10,7 @@
   <body>
     <!-- Navbar  -->
     <header class="nav">
+      <!-- Navigation links to various pages -->
       <a class="active" href="/home.html">Home</a>
       <a href="/categories.html">Categories</a>
       <a href="/product.html">Product</a>
@@ -18,11 +19,16 @@
 
     <!-- Main Section -->
     <div class="main">
+      <!-- Heading for the main section -->
       <h1>Create Product Categories</h1>
+      <!-- Primary Content Section -->
       <div class="primary">
+        <!-- Category Creation Form -->
         <form id="categoryForm">
+          <!-- Category Name Input -->
           <label for="categoryName">Category Name:</label>
           <input type="text" id="categoryName" required />
+          <!-- GST Rate Input -->
           <label for="gstRate">GST Rate:</label>
           <input type="number" id="gstRate" required /><br />
           <button type="button" onclick="createCategory()">

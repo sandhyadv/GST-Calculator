@@ -19,11 +19,17 @@
     <div class="main">
       <h1>Update Gst</h1>
 
+      <!-- Form for Updating GST -->
       <form id="categoryForm">
+        <!-- Select Category Dropdown -->
         <label for="selectCategory">Select Category:</label>
         <select id="selectCategory" required></select>
+
+        <!-- New GST Rate Input -->
         <label for="newGstRate">Update GST:</label>
         <input type="number" id="newGstRate" required /><br />
+
+        <!-- Secondary Actions Section -->
         <div class="secondary">
           <button type="button" onclick="updateGst()">Update GST Rate</button>
         </div>

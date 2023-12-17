@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Title of the HTML document -->
     <title>Create Sale</title>
   </head>
   <body>
     <!-- Navbar Section -->
     <div class="nav">
+      <!-- Navigation links to various pages -->
       <a href="/home.html">Home</a>
       <a href="/categories.html">Categories</a>
       <a href="/product.html">Product</a>
@@ -18,21 +23,28 @@
     </div>
     <!-- Main Section -->
     <div class="main">
+      <!-- Heading for the main section -->
       <h1>Create Sale</h1>
 
+      <!-- Sale Form -->
       <form id="saleForm">
+        <!-- Select Category Dropdown -->
         <label for="selectCategory">Select Category:</label>
         <select
           id="selectCategory"
           onchange="updateProductDetailts()"
           required
         ></select>
+
+        <!-- Select Product Dropdown -->
         <label for="selectProduct">Select Product:</label>
         <select
           id="selectProduct"
           onchange="populateProductDetails()"
           required
         ></select>
+
+        <!-- Quantity Input -->
         <label for="quantity">Quantity:</label>
         <input
           type="number"
@@ -42,8 +54,12 @@
           onChange="updateTotalAmount()"
           required
         />
+
+        <!-- GST Rate Display -->
         <label for="gstRate">GST Rate:</label>
         <input type="text" id="gstRate" readonly />
+
+        <!-- Total Amount Display -->
         <label for="totalAmount">Total Amount:</label>
         <input type="text" id="totalAmount" readonly /><br />
         <div class="secondary">
