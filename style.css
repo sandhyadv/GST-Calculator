@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300;400&display=swap");
+
+body {
+  background-color: #cacfd6;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav {
+  background-color: #5e5b52;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.nav a {
+  color: #000000;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.nav a:hover {
+  background-color: #fcd757;
+  color: rgb(0, 0, 0);
+  border-radius: 5rem;
+}
+
+.nav a.active {
+  background-color: #df9a57;
+  color: rgb(0, 0, 0);
+  border-radius: 5rem;
+}
+
+table {
+  background-color: #442f38;
+  border-radius: 10px;
+  border: rgb(24, 24, 24) 1px solid;
+  height: 2rem;
+  margin-right: 20px;
+  color: #cacfd6;
+}
+
+td {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.goToSales {
+  text-decoration: none;
+  margin-top: 3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #1a281f;
+}
+
+label {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+input,
+select {
+  border-radius: 10px;
+  border: rgb(255, 153, 0) 1px solid;
+  height: 3rem;
+  width: 15rem;
+  margin-right: 20px;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+}
+
+button {
+  padding: 15px;
+  background-color: #ce7b91;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}

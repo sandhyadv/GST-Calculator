@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bill</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="nav">
+      <a href="/home.html">Home</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/product.html">Product</a>
+      <a href="/sale.html">Sale</a>
+      <a class="active" href="/bill.html">Bill</a>
+    </div>
+    <!-- Main Section -->
+    <div class="main">
+      <h1 class="billHeading">Final Bill</h1>
+      <button onclick="createBill()">Generate Bill</button><br />
+      <table id="billTable" border="1"></table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
